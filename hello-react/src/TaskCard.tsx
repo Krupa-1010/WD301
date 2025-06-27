@@ -17,7 +17,7 @@ const TaskCard=(props:TaskCardProps)=>{
         <p>
           {
             props.status ==='Done'
-            ?`Completed On: ${props.completedAtDate}`
+            ?`Completed on: ${props.completedAtDate}`
             :`Due on: ${props.dueDate}`
           }
         </p>
