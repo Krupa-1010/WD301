@@ -1,6 +1,16 @@
+import React from 'react'
 import './TaskCard.css'
 
-const TaskCard=(props)=>{
+interface TaskCardProps{
+  title: string,
+  dueDate?:string;
+  completedAtDate?:string;
+  assigneeName:string;
+  status:'Pending'|'Done';
+
+}
+
+const TaskCard=(props:TaskCardProps)=>{
   return(
     <div className="TaskItem m-4">
         <h2 className='text-xl font-bold'>{props.title}</h2>
