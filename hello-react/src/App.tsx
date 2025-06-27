@@ -13,11 +13,11 @@ function App() {
       title='Build the website with static content'
       dueDate='10th April'
       assigneeName='Rohit S'
-      status='Pending'/>
+      />
       <TaskCard title='Add a blog'
       dueDate='22nd March'
       assigneeName='Rohit M'
-      status='Pending'/>
+      />
      
     </div>
     <div className="m-20 w-1/2 TaskItem">
@@ -25,11 +25,11 @@ function App() {
       <TaskCard title='Design the mockup'
       completedAtDate='10th April'
       assigneeName='Rohit M'
-      status='Done'/>
+      />
       <TaskCard title='Get the approval from principal'
       completedAtDate='20th April'
       assigneeName='Ajay S'
-      status='Done'/>
+      />
     </div>
    </div>
    </div>

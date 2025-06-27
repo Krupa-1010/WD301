@@ -6,7 +6,7 @@ interface TaskCardProps{
   dueDate?:string;
   completedAtDate?:string;
   assigneeName:string;
-  status:'Pending'|'Done';
+  
 
 }
 
@@ -16,7 +16,7 @@ const TaskCard=(props:TaskCardProps)=>{
         <h2 className='text-xl font-bold'>{props.title}</h2>
         <p>
           {
-            props.status ==='Done'
+            props.completedAtDate
             ?`Completed on: ${props.completedAtDate}`
             :`Due on: ${props.dueDate}`
           }
